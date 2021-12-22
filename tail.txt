@@ -1,0 +1,21 @@
+  </div>
+  <script>var b = new Date()
+    var day = b.getFullYear() + '-' + (b.getMonth() + 1) + '-' + b.getDate()
+    if (day == '2020-4-4') {
+      var style = document.createElement("style");
+      var t = document.createTextNode("html { -webkit-filter: grayscale(100%);-moz-filter: grayscale(100%);-ms-filter: grayscale(100%);-o-filter: grayscale(100%);filter: grayscale(100%);filter: gray; }");
+      style.appendChild(t);
+      document.body.appendChild(style);
+    }</script>
+  <div class="van-overlay" style="z-index: 2001; display: none;"></div>
+  <div role="dialog" class="van-dialog" aria-labelledby="time out" style="z-index: 2002; display: none;">
+    <div class="van-dialog__content">
+      <div class="van-dialog__message">time out</div>
+    </div>
+    <div class="van-hairline--top van-dialog__footer"><button
+        class="van-button van-button--default van-button--large van-dialog__confirm"><span
+          class="van-button__text">确认</span></button></div>
+  </div>
+</body>
+
+</html>
