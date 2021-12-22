@@ -1,2 +1,3 @@
-# Gabriel-1023.github.io
-现在他是一个青年大学习的虚假积分页面
+# Gabriel-1023.github.io/young-man-big-study
+
+一个青年大学习积分界面的页面
